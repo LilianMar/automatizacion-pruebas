@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-04T02:08:47 COT" name="Command line suite" finished-at="2024-12-04T02:09:06 COT" duration-ms="18567">
+    <groups>
+    </groups>
+    <test started-at="2024-12-04T02:08:47 COT" name="Command line test" finished-at="2024-12-04T02:09:06 COT" duration-ms="18567">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@38364841]" started-at="2024-12-04T02:08:47 COT" name="setup" finished-at="2024-12-04T02:08:51 COT" duration-ms="3766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin()[pri:0, instance:tests.LoginTest@38364841]" started-at="2024-12-04T02:08:51 COT" name="testLogin" finished-at="2024-12-04T02:08:53 COT" duration-ms="2123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@38364841]" started-at="2024-12-04T02:08:53 COT" name="teardown" finished-at="2024-12-04T02:08:53 COT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.PurchaseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PurchaseTest@646be2c3]" started-at="2024-12-04T02:08:53 COT" name="setup" finished-at="2024-12-04T02:08:56 COT" duration-ms="2747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPurchaseFlow()[pri:0, instance:tests.PurchaseTest@646be2c3]" started-at="2024-12-04T02:08:56 COT" name="testPurchaseFlow" finished-at="2024-12-04T02:09:05 COT" duration-ms="9679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPurchaseFlow -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.PurchaseTest@646be2c3]" started-at="2024-12-04T02:09:05 COT" name="teardown" finished-at="2024-12-04T02:09:06 COT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.PurchaseTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
